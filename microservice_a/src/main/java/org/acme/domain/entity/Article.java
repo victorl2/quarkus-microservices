@@ -1,11 +1,18 @@
+package org.acme.domain.entity;
 
+/**
+ * A simple class representing a article
+ * 
+ * @author Victor Silva
+ */
 public class Article {
+	private Long id;
     private String title;
-    private Strinng description;
+    private String description;
 
     public Article(){}
 
-    public Articule(String title, String description){
+    public Article(String title, String description){
         this.title = title;
         this.description = description;
     }
@@ -25,4 +32,12 @@ public class Article {
     public void setDescription(String description){
         this.description = description;
     }
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 }
