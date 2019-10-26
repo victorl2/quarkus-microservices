@@ -30,7 +30,6 @@ public class ArticleResource {
 
     @POST
     @Path("{tenant}")
-    @Produces(MediaType.TEXT_PLAIN)
     public Article saveNewArticle(@PathParam("tenant") final String tenant, Article article) {
     	article.persist();
         return article;
