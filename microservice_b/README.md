@@ -1,4 +1,4 @@
-# quarkus-microservices
+# Microservice b
 This microservice process requests to **save** and **get** **Article** objects from the database.
 
 ## How to run
